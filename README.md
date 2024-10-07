@@ -7,7 +7,7 @@
 ## Technologies Used
 
 **MySQL** used for
-- Data Analyst : Used for structured querying and data manipulation to prepare the dataset for visualization.
+- Data Analysis : Used for structured querying and data manipulation to prepare the dataset for visualization.
   
 
 ## Insights and Conclusions
