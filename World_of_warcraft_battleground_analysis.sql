@@ -1,4 +1,4 @@
-/*1. How many times alliance wins? how many horde wins? */ 
+/*1. How many times did the alliance win and how many times did the horde win? */ 
 
 with match_won as (
 select 
