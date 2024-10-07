@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-
+The project focuses on data analysis of 77 "Warsong Gulch" battleground games.
  
 ### Context
 Battlegrounds are scenarios where the two playable factions of the game (Horde and Alliance) fight against each other to win. This project is focused on battleground "Warsong Gulch" Each side tries to take the opponent flag and "cap" (score) it at their own base. You can only "cap" the flag if the enemy isn't carrying yours. The winner is the first team to achieve 3 caps, or the team with the most caps when the allotted time expires.
