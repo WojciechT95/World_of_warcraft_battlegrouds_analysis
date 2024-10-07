@@ -1,13 +1,12 @@
 #  World Of Warcraft Battlegrouds Analysis
 
- ## Project Overview
+## Project Overview
  
 
 
 ## Technologies Used
 
-**MySQL** used for
-- Data Analysis : Used for structured querying and data manipulation to prepare the dataset for visualization.
+**MySQL** used for data modeling : Used for structured querying and data manipulation to prepare the dataset for visualization.
   
 
 ## Insights and Conclusions
