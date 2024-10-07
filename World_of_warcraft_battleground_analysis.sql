@@ -4,7 +4,7 @@ with match_won as (
 select 
 Code 
 ,Faction 
-, count(distinct Win) 	as win_or_lose
+, count(distinct Win) 		as win_or_lose
 from wowwg w 
 group by 1,2
 )
