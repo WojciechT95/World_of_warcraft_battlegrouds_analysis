@@ -36,25 +36,25 @@ Common statistics (columns) in all files are:
 
 Below are the questions asked to the data and the answers to them
 
-/*1. How many times did the alliance win and how many times did the horde win? */ 
+1. How many times did the alliance win and how many times did the horde win?
 
 
 
-/* 2. According to question one, how many times alliance or horde wins but as a full-fledged victory?
+2. According to question one, how many times alliance or horde wins but as a full-fledged victory?
  
  (note, if there are not enough players in battleground, the game ends after 3 minutes, leaving the winner with the best progress so far or when the allotted time expires.
- Full-fledged win in Warsong Gulch occurs when a team captures the flag from the opponent's base to its base three times)  */ 
+ Full-fledged win in Warsong Gulch occurs when a team captures the flag from the opponent's base to its base three times)
 
 
 
-/*3. Create ranking of classes that make the highest average damage done. */ 
+3. Create ranking of classes that make the highest average damage done.
 
 
 
-/*4. What is percentage distributon of average healing done for healing classes? */ 
+4. What is percentage distributon of average healing done for healing classes?
 
 
-/*5. Which class enjoys the highest mortality rate? */ 
+5. Which class enjoys the highest mortality rate?
 
 
 ## Data Source
