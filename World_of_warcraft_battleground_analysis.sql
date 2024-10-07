@@ -16,7 +16,7 @@ match_won wm
 group by 1
 
 
-/* 2. According to question one, how many times alliance or horde wins but but as a full-fledged?
+/* 2. According to question one, how many times alliance or horde wins but as a full-fledged victory?
  
  (note, if there are not enough players in battleground, the game ends after 3 minutes, leaving the winner with the best progress so far.
  Full-fledged win in Warsong Gulch occurs when a team captures the flag from the opponent's base to its base three times)  */ 
