@@ -35,17 +35,16 @@ Code
 end as Winner
 from wowwg w 
 group by 1
-order by 1
 ) wi
 group by 1
 order by 2
 
 
-/*3. Create ranking of classes that make the highest average damage done? */ 
+/*3. Create ranking of classes that make the highest average damage done. */ 
 
 select
 Class 
-,round(avg(DD),0) 						as average_damage_done
+,round(avg(DD),0) 				as average_damage_done
 ,row_number () over				
 (order by round(avg(DD),0)  desc) 		as dps_ranking
 from wowwg w 
@@ -59,7 +58,7 @@ with class_healing_done as
 (
 select
 Class 
-,round(avg(HD),0) 													as avg_healing
+,round(avg(HD),0) 								as avg_healing
 from wowwg w 
 where Rol ='heal'
 group by 1
@@ -67,7 +66,7 @@ group by 1
 total_avg_healing_done as
 (
 select
-sum( avg_healing) 													as total_avg_healing
+sum( avg_healing) 								as total_avg_healing
 from class_healing_done
 )
 select
