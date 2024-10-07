@@ -6,7 +6,7 @@
 
 ## Technologies Used
 
-**MySQL** used for data modeling : Used for structured querying and data manipulation to prepare the dataset for visualization.
+**MySQL** used for structured querying allowing to find answers to questions asked of the data.
   
 
 ## Insights and Conclusions
