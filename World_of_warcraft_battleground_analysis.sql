@@ -84,7 +84,7 @@ order by 2 desc
 with class_healing_done as
 (
 select
-Class 
+Class 								as Average_Healing_Done
 ,round(avg(HD),0) 						as Avg_healing
 from wowwg w 
 where Rol ='heal'
