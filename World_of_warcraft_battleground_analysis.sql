@@ -4,7 +4,7 @@ with match_won as (
 select 
 Code 
 ,Faction 
-, count(distinct Win) 	as win_or_lose
+, count(distinct Win) 		as win_or_lose
 from wowwg w 
 group by 1,2
 )
@@ -23,7 +23,7 @@ group by 1
 
 select 
 wi.winner
-,count(wi.winner)					as Total_wins
+,count(wi.winner)		as Total_wins
 from
 (
 select 
@@ -45,7 +45,7 @@ order by 2
 
 select
 Class 
-,round(avg(DD),0) 						as average_damage_done
+,round(avg(DD),0) 				as average_damage_done
 ,row_number () over				
 (order by round(avg(DD),0)  desc) 		as dps_ranking
 from wowwg w 
@@ -59,7 +59,7 @@ with class_healing_done as
 (
 select
 Class 
-,round(avg(HD),0) 													as avg_healing
+,round(avg(HD),0) 						as avg_healing
 from wowwg w 
 where Rol ='heal'
 group by 1
@@ -67,12 +67,12 @@ group by 1
 total_avg_healing_done as
 (
 select
-sum( avg_healing) 													as total_avg_healing
+sum( avg_healing) 						as total_avg_healing
 from class_healing_done
 )
 select
 chd.class
-,round(((chd.avg_healing / tahd.total_avg_healing)*100),2) 			as healing_percentage
+,round(((chd.avg_healing / tahd.total_avg_healing)*100),2) 	as healing_percentage
 from class_healing_done chd
 cross join total_avg_healing_done tahd
 order by 2
@@ -83,7 +83,7 @@ order by 2
 
 select
 Class 
-, sum(D)					as total_numbers_of_deaths
+, sum(D)		as total_numbers_of_deaths
 from wowwg w 
 group by 1
 order by 2 desc
@@ -92,7 +92,7 @@ order by 2 desc
 
 select
 Class 
-, count(Class)				as total_numbers_of_appearances
+, count(Class)		as total_numbers_of_appearances
 from wowwg w 
 group by 1
 order by 2 desc
