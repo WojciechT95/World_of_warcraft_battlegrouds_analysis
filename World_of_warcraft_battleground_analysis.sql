@@ -135,25 +135,18 @@ from wowwg w
 group by 1
 order by 2 desc
 
-/* 10.Which classes do players play the most often and which the least often? */ 
+/* 10.Which classes do players play the most often and which the least often and what is their mortality rate? */ 
 
 select
 Class 
 ,count(Class)				as Total_numbers_of_appearances
-from wowwg w 
-group by 1
-order by 2 desc
-
-/*11. What are the differences in mortality between the factions? */
-
-select
-Faction 
 ,sum(D)					as Total_numbers_of_deaths
+,round((sum(D)/count(Class)),1)		as Mortality_rate
 from wowwg w 
 group by 1
 order by 2 desc
 
-/*12. Which classes captured the opponent's flag most often in both factions? */
+/*11. Which classes captured the opponent's flag most often in both factions? */
 
 select
 Class 
