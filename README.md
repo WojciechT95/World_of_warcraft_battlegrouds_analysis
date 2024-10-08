@@ -38,21 +38,25 @@ Below are the questions asked to the data and the answers to them
 
 **1. How many times did the alliance win and how many times did the horde win?**
 
-![image](https://github.com/user-attachments/assets/35de4230-43ef-4bd1-93d4-831a3f7e9f26)
+
+![image](https://github.com/user-attachments/assets/3130fdd1-48aa-4006-a857-774647017981)
 
 
 
 **2. According to question one, how many times alliance or horde wins but as a full-fledged victory?**
-  (note, if there are not enough players in battleground, the game ends after 3 minutes, leaving the winner with the best progress so far or when the allotted time expires.
+
+(note, if there are not enough players in battleground, the game ends after 3 minutes, leaving the winner with the best progress so far or when the allotted time expires.
  Full-fledged win in Warsong Gulch occurs when a team captures the flag from the opponent's base to its base three times)
  
-![image](https://github.com/user-attachments/assets/e05b9849-ed1a-441a-8aef-920e4372bc68)
+![image](https://github.com/user-attachments/assets/94a5ebfe-591a-4555-b708-28e8fa26af15)
+
 
 
 
 **3. Create ranking of classes that make the highest average damage done.**
 
-![image](https://github.com/user-attachments/assets/af90a3af-3318-4138-9bff-60f4baece202)
+![image](https://github.com/user-attachments/assets/28e6e893-b258-4d72-98be-36d963a0be39)
+
 
 **4. What is the difference between the total and average damage done for all classes and between the two factions?**
 
@@ -65,7 +69,8 @@ Below are the questions asked to the data and the answers to them
 
 **6. What is percentage distributon of average healing done for healing classes?**
 
-![image](https://github.com/user-attachments/assets/e0b86cce-300f-439e-9e1c-b494242e9781)
+![image](https://github.com/user-attachments/assets/6d72c842-7882-40b9-9387-060b86e2d634)
+
 
 **7. What is the difference between the total healing done for all classes between the two factions?**
 
@@ -79,11 +84,13 @@ Below are the questions asked to the data and the answers to them
 
 **9. Which class enjoys the highest mortality rate?**
 
-![image](https://github.com/user-attachments/assets/bc0eddca-8579-49f3-9d39-24728e92b5d8)
+![image](https://github.com/user-attachments/assets/af6391f8-7ff1-4a35-858f-6ea82749ef83)
+
 
 **10.Which classes do players play the most often and which the least often?**
 
-![image](https://github.com/user-attachments/assets/a257cec8-4e6a-496f-86ef-0c8a9d63bc46)
+![image](https://github.com/user-attachments/assets/5e2e0911-2aff-4afc-9f3c-1ba1df0c975d)
+
 
 **11. What are the differences in mortality between the factions?**
 
