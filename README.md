@@ -58,7 +58,7 @@ More than 1/3 of the games ended in walkovers, while the full-fledged Horde won 
 ![image](https://github.com/user-attachments/assets/28e6e893-b258-4d72-98be-36d963a0be39)
 
 
-**4. What is the difference between the total and average damage done for all classes and between the two factions?**
+**4. What is the difference between the total and average damage done for all classes speparate for each factions?**
 
 ![image](https://github.com/user-attachments/assets/52e2b831-6c00-452f-8be9-ddf131fc4b5a)
 
