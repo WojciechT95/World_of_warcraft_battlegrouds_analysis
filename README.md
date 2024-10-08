@@ -44,7 +44,7 @@ Below are the questions asked to the data and the answers to them
 Checking the data of all the games, it was noted that with a slight advantage the horde wins more often reaching 41 matches won, while the alliance won only 36 matches.
 However, it is worth asking the data:
 
-**2. According to question one, how many times alliance or horde wins but as a full-fledged victory?**
+**2. How many times alliance or horde wins but as a full-fledged victory?**
 
 (note, if there are not enough players in battleground, the game ends after 3 minutes, leaving the winner with the best progress so far or when the allotted time expires.
  Full-fledged win in Warsong Gulch occurs when a team captures the flag from the opponent's base to its base three times)
