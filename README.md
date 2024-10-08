@@ -45,6 +45,7 @@ Below are the questions asked to the data and the answers to them
  
  (note, if there are not enough players in battleground, the game ends after 3 minutes, leaving the winner with the best progress so far or when the allotted time expires.
  Full-fledged win in Warsong Gulch occurs when a team captures the flag from the opponent's base to its base three times)
+ 
 ![image](https://github.com/user-attachments/assets/e05b9849-ed1a-441a-8aef-920e4372bc68)
 
 
