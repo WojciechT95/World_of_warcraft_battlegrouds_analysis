@@ -55,8 +55,6 @@ More than 1/3 of the games ended in walkovers, while the full-fledged Horde won 
 
 **3. Create ranking of classes that make the highest average damage done.**
 
-The data shows that the strongest classes are warlock, priest, paladin, mage, while the weakest classes are warrior, monk and rogue.
-
 ![image](https://github.com/user-attachments/assets/28e6e893-b258-4d72-98be-36d963a0be39)
 
 The data shows that the strongest classes are warlock, priest, paladin, mage, while the weakest classes are warrior, monk and rogue. To confirm these observations it is necessary to ask the next question:
@@ -64,6 +62,8 @@ The data shows that the strongest classes are warlock, priest, paladin, mage, wh
 **4. What is the difference between the total and average damage done for all classes separate for each factions?**
 
 ![image](https://github.com/user-attachments/assets/52e2b831-6c00-452f-8be9-ddf131fc4b5a)
+
+
 
 **5. How much total and average damage done by both factions?**
 
