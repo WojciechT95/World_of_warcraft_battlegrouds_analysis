@@ -130,7 +130,7 @@ order by 2 desc
 
 select
 Faction 
-,sum(D)						as Total_numbers_of_deaths
+,sum(D)					as Total_numbers_of_deaths
 from wowwg w 
 group by 1
 order by 2 desc
