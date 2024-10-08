@@ -79,7 +79,7 @@ group by 1
 order by 2 desc
 
 
-/*6. What is percentage distributon of average healing done for healing classes? */ 
+/*6. What is average healing done and its percentage distributon for healing classes? */ 
 
 with class_healing_done as
 (
@@ -98,10 +98,11 @@ from class_healing_done
 )
 select
 chd.Class
+,chd.Avg_healing	
 ,round(((chd.avg_healing / tahd.total_avg_healing)*100),2) 	as Healing_percentage
 from class_healing_done chd
 cross join total_avg_healing_done tahd
-order by 2
+order by 2 desc
 
 /*7. What is the difference between the total healing done for all classes between the two factions? */
 
