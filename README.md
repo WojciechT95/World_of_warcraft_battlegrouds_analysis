@@ -38,23 +38,34 @@ Below are the questions asked to the data and the answers to them
 
 1. How many times did the alliance win and how many times did the horde win?
 
+![image](https://github.com/user-attachments/assets/35de4230-43ef-4bd1-93d4-831a3f7e9f26)
 
 
 2. According to question one, how many times alliance or horde wins but as a full-fledged victory?
  
  (note, if there are not enough players in battleground, the game ends after 3 minutes, leaving the winner with the best progress so far or when the allotted time expires.
  Full-fledged win in Warsong Gulch occurs when a team captures the flag from the opponent's base to its base three times)
+![image](https://github.com/user-attachments/assets/e05b9849-ed1a-441a-8aef-920e4372bc68)
 
 
 
 3. Create ranking of classes that make the highest average damage done.
 
+![image](https://github.com/user-attachments/assets/af90a3af-3318-4138-9bff-60f4baece202)
 
 
 4. What is percentage distributon of average healing done for healing classes?
 
+![image](https://github.com/user-attachments/assets/e0b86cce-300f-439e-9e1c-b494242e9781)
+
 
 5. Which class enjoys the highest mortality rate?
+
+![image](https://github.com/user-attachments/assets/bc0eddca-8579-49f3-9d39-24728e92b5d8)
+
+6.Which classes do players play the most often and which the least often?
+
+![image](https://github.com/user-attachments/assets/a257cec8-4e6a-496f-86ef-0c8a9d63bc46)
 
 
 ## Data Source
