@@ -51,8 +51,7 @@ However, it is worth asking the data:
  
 ![image](https://github.com/user-attachments/assets/94a5ebfe-591a-4555-b708-28e8fa26af15)
 
-
-
+More than 1/3 of the games ended in walkovers, while the full-fledged Horde won almost 3 times as many matches as the Alliance. This means that the Horde dominated the Warsong Gulch. To answer this question, it is necessary to analyze the optimal formation of the team for this purpose must :
 
 **3. Create ranking of classes that make the highest average damage done.**
 
