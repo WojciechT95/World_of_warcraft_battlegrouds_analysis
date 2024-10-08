@@ -32,19 +32,18 @@ Common statistics (columns) in all files are:
 **MySQL** used for structured querying allowing to find answers to questions asked of the data.
   
 
-## Insights and Conclusions
+## Insights
 
 Below are the questions asked to the data and the answers to them
 
-**1. How many times did the alliance win and how many times did the horde win?**
-
+**1. How many times did the Alliance win and how many times did the Horde win?**
 
 ![image](https://github.com/user-attachments/assets/3130fdd1-48aa-4006-a857-774647017981)
 
-Checking the data of all the games, it was noted that with a slight advantage the horde wins more often reaching 41 matches won, while the alliance won only 36 matches.
+Checking the data of all the games, it was noted that with a slight advantage the Horde wins more often reaching 41 matches won, while the Alliance won only 36 matches.
 However, it is worth asking the data:
 
-**2. How many times alliance or horde wins but as a full-fledged victory?**
+**2. How many times Alliance or Horde wins but as a full-fledged victory?**
 
 (note, if there are not enough players in battleground, the game ends after 3 minutes, leaving the winner with the best progress so far or when the allotted time expires.
  Full-fledged win in Warsong Gulch occurs when a team captures the flag from the opponent's base to its base three times)
@@ -63,17 +62,17 @@ The data shows that the strongest classes are warlock, priest, paladin, mage, wh
 
 ![image](https://github.com/user-attachments/assets/52e2b831-6c00-452f-8be9-ddf131fc4b5a)
 
-From the data obtained, one can see a slight difference compared to the previous table. The first two places come out unchanged. The warlock class deals as much as more than 7 thousand average damage more compared to the covenant player. In addition, in this faction one of the dominant classes is the hunter. In the alliance, on the other hand, the highest average damage is dealt by the priest, while the death knight and druid also reach the top of the leaderboard. Interestingly, in the first 8 positions of the table, 6 of them are alliance players. Now we have to find out:
+From the data obtained, one can see a slight difference compared to the previous table. The first two places come out unchanged. The warlock class from Horde faction deals as much as more than 7 thousand average damage more compared to the Alliance player. In addition, in this faction one of the dominant classes is the hunter. In the Alliance, on the other hand, the highest average damage is dealt by the priest, while the death knight and druid also reach the top of the leaderboard. Interestingly, in the first 8 positions of the table, 6 of them are Alliance players. Now we have to find out:
 
 **5. How much total and average damage done by both factions?**
 
 ![image](https://github.com/user-attachments/assets/019bd8ee-28fa-4e84-a164-c0d0f58ba0c2)
 
+The above table shows that, Alliance players inflicted a total of more than 1.2 million and an average of 0.7 thousand more damage done than Horde players. These data agree with the result obtained in question 4, but do not explain the dominance of the Horde faction in most matches. Therefore, it is necessary to examine other variables and ask the next question to the data:
 
 **6. What is average healing done and its percentage distributon for healing classes?**
 
 ![image](https://github.com/user-attachments/assets/86d87d12-afbc-47e3-bd8b-ec8c7b7a0578)
-
 
 
 
@@ -101,7 +100,7 @@ From the data obtained, one can see a slight difference compared to the previous
 
 ![image](https://github.com/user-attachments/assets/bf94fb18-2018-4320-b898-fbaf9f5423df)
 
-
+## Conclusions
 
 ## Data Source
     
