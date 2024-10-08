@@ -68,40 +68,58 @@ From the data obtained, one can see a slight difference compared to the previous
 
 ![image](https://github.com/user-attachments/assets/019bd8ee-28fa-4e84-a164-c0d0f58ba0c2)
 
-The above table shows that, Alliance players inflicted a total of more than 1.2 million and an average of 0.7 thousand more damage done than Horde players. These data agree with the result obtained in question 4, but do not explain the dominance of the Horde faction in most matches. Therefore, it is necessary to examine other variables and ask the next question to the data:
+The above table shows that, Alliance players inflicted a total of more than 1.2 million and an average of 0.7 thousand more damage done than Horde players. The difference is relatively small. These data agree with the result obtained in question 4, but do not explain the dominance of the Horde faction in most matches. Therefore, it is necessary to examine other variables and ask the next question to the data:
 
 **6. What is average healing done and its percentage distributon for healing classes?**
 
 ![image](https://github.com/user-attachments/assets/86d87d12-afbc-47e3-bd8b-ec8c7b7a0578)
 
-
+The above data shows that the best healing classes are monk and priest. The worst is the Paladin. As in the analysis of classes that deal damage, the question needs to be asked:
 
 **7. What is the difference between the total healing done for all classes between the two factions?**
 
 ![image](https://github.com/user-attachments/assets/a874a57b-03f0-4d5a-a0b6-7e9b51dd9ead)
 
+The result of this query is surprising. It shows that Horde players playing the Monk class heal, on average, about 1.5 more lives than their Alliance playing opponents. At the top is also the prist class from both factions, which confirms the data obtained in question 6. It can also be noted that the upper part of the table is filled mostly by classes on the Horde side. It would therefore be appropriate to ask the data:
 
 **8. How much total and average healing done by both factions?**
 
 ![image](https://github.com/user-attachments/assets/00a780c8-cdbb-46f5-b448-db70ca17321e)
 
+Horde players healed a total of 2.3 million and almost averaged 3,000 more lives than Alliance players. Here the difference is noticeable and we can assume that this is one of the reasons for their dominance.To confirm this, it is necessary to ask the data:
 
-**9. Which class enjoys the highest mortality rate?**
+**9. What are the differences in mortality between the factions?**
 
-![image](https://github.com/user-attachments/assets/af6391f8-7ff1-4a35-858f-6ea82749ef83)
+ ![image](https://github.com/user-attachments/assets/8beb8abe-b47c-40a4-a003-269d65685ad8)
 
+The result obtained confirms the assumptions in the earlier question. The effective work of healing classes reduces the number of player deaths, which makes the faction's gameplay more fluid and allows them to win more matches. The main condition for winning, is to capture three flags from the opponent's base, so the next question must be asked:
 
-**10..Which classes do players play the most often and which the least often and what is their mortality rate?**
-
-![image](https://github.com/user-attachments/assets/dab5e9b2-299f-4a80-967b-8e74580c3a48)
-
-
-**11. Which classes captured the opponent's flag most often in both factions?**
+**10. Which classes captured the opponent's flag most often in both factions?**
 
 ![image](https://github.com/user-attachments/assets/bf94fb18-2018-4320-b898-fbaf9f5423df)
 
+Demon Hunters have an overwhelming dominance in taking the enemy's flag. Next in the table are Warrior, Druid and Monk. In turn, the bottom of the table is dominated by exactly the same classes, which deal the highest average damage done. And how many times on average do players of a given class die? To check this the next question is:
+
+**11.Which classes do players play the most often and which the least often and what is their mortality rate?**
+
+![image](https://github.com/user-attachments/assets/dab5e9b2-299f-4a80-967b-8e74580c3a48)
+
+From the data, it appears that the lowest mortality rate of the classes that most often receive the flag are Monk and Druid, making them the best for this role. Demon Hunter and Warrior die in this role much more often.  The class that dies the most often is Warlock.
+
+
 ## Conclusions
 
+The above analysis of the data shows that:
+
+1.The dominant faction in all the games analyzed is the Horde.
+
+2.The role of healing classes is critically important and is key to winning matches.
+
+3.The most optimal team should include: 
+-Damage Dealers, playing with Warlock, Priest, Mage, Hunter and Death Knight classes.
+-Healers, playing with Monk and Priest classes
+-Flag Catcher, playing with Monk, Druid and Demon Hunter classes.
+  
 ## Data Source
     
 The dataset was sourced from kaggle.com
