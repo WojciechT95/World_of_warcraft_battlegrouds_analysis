@@ -4,7 +4,7 @@ with match_won as (
 select 
 Code 
 ,Faction 
-,count(distinct Win) 	as Win_or_lose
+,count(distinct Win) 		as Win_or_lose
 from wowwg w 
 group by 1,2
 )
@@ -23,7 +23,7 @@ group by 1
 
 select 
 wi.inner
-,count(wi.Winner)					as Total_wins
+,count(wi.Winner)		as Total_wins
 from
 (
 select 
@@ -45,9 +45,9 @@ order by 2
 
 select
 Class 
-,round(avg(DD),0) 						as Average_damage_done
+,round(avg(DD),0) 			as Average_damage_done
 ,row_number () over				
-(order by round(avg(DD),0)  desc) 		as Dps_ranking
+(order by round(avg(DD),0)  desc) 	as Dps_ranking
 from wowwg w 
 where Rol ='dps'
 group by 1
@@ -59,9 +59,9 @@ order by 2 desc
 select
 Class 
 ,Faction
-,round(avg(DD),0) 						as Average_damage_done
+,round(avg(DD),0) 			as Average_damage_done
 ,row_number () over				
-(order by round(avg(DD),0)  desc) 		as Dps_ranking
+(order by round(avg(DD),0)  desc) 	as Dps_ranking
 from wowwg w 
 where Rol ='dps'
 group by 1,2
@@ -71,8 +71,8 @@ order by 3 desc
 
 select
 Faction
-,round(sum(DD),0) 						as Total_damage_done
-,round(avg(DD),0) 						as Average_damage_done
+,round(sum(DD),0) 			as Total_damage_done
+,round(avg(DD),0) 			as Average_damage_done
 from wowwg w 
 where Rol ='dps'
 group by 1
@@ -85,7 +85,7 @@ with class_healing_done as
 (
 select
 Class 
-,round(avg(HD),0) 													as Avg_healing
+,round(avg(HD),0) 						as Avg_healing
 from wowwg w 
 where Rol ='heal'
 group by 1
@@ -93,12 +93,12 @@ group by 1
 total_avg_healing_done as
 (
 select
-sum( avg_healing) 													as Total_avg_healing
+sum( avg_healing) 						as Total_avg_healing
 from class_healing_done
 )
 select
 chd.Class
-,round(((chd.avg_healing / tahd.total_avg_healing)*100),2) 			as Healing_percentage
+,round(((chd.avg_healing / tahd.total_avg_healing)*100),2) 	as Healing_percentage
 from class_healing_done chd
 cross join total_avg_healing_done tahd
 order by 2
@@ -129,7 +129,7 @@ order by 2 desc
 
 select
 Class 
-,sum(D)						as Total_numbers_of_deaths
+,sum(D)					as Total_numbers_of_deaths
 from wowwg w 
 group by 1
 order by 2 desc
@@ -147,7 +147,7 @@ order by 2 desc
 
 select
 Faction 
-,sum(D)						as Total_numbers_of_deaths
+,sum(D)					as Total_numbers_of_deaths
 from wowwg w 
 group by 1
 order by 2 desc
@@ -157,7 +157,7 @@ order by 2 desc
 select
 Class 
 ,Faction 
-,sum(FC)					as Total_flag_captured
+,sum(FC)				as Total_flag_captured
 from wowwg w 
 group by 1,2
 order by 3 desc
