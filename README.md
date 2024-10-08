@@ -67,9 +67,10 @@ Below are the questions asked to the data and the answers to them
 ![image](https://github.com/user-attachments/assets/019bd8ee-28fa-4e84-a164-c0d0f58ba0c2)
 
 
-**6. What is percentage distributon of average healing done for healing classes?**
+**6. What is average healing done and its percentage distributon for healing classes?**
 
-![image](https://github.com/user-attachments/assets/6d72c842-7882-40b9-9387-060b86e2d634)
+![image](https://github.com/user-attachments/assets/1fbd651a-65d8-4cc5-823d-0e472b022dcc)
+
 
 
 **7. What is the difference between the total healing done for all classes between the two factions?**
