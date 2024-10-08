@@ -92,16 +92,12 @@ From the data obtained, one can see a slight difference compared to the previous
 ![image](https://github.com/user-attachments/assets/af6391f8-7ff1-4a35-858f-6ea82749ef83)
 
 
-**10.Which classes do players play the most often and which the least often?**
+**10..Which classes do players play the most often and which the least often and what is their mortality rate?**
 
-![image](https://github.com/user-attachments/assets/5e2e0911-2aff-4afc-9f3c-1ba1df0c975d)
+![image](https://github.com/user-attachments/assets/dab5e9b2-299f-4a80-967b-8e74580c3a48)
 
 
-**11. What are the differences in mortality between the factions?**
-
-![image](https://github.com/user-attachments/assets/4268d6e5-771a-4339-96fa-ee153b85564b)
-
-**12. Which classes captured the opponent's flag most often in both factions?**
+**11. Which classes captured the opponent's flag most often in both factions?**
 
 ![image](https://github.com/user-attachments/assets/bf94fb18-2018-4320-b898-fbaf9f5423df)
 
