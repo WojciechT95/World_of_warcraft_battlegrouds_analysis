@@ -125,17 +125,28 @@ from wowwg w
 where Rol ='heal'
 group by 1
 order by 2 desc
-
-/*9. Which class enjoys the highest mortality rate? */ 
+	
+/*9. What are the differences in mortality between the factions? */
 
 select
-Class 
-,sum(D)					as Total_numbers_of_deaths
+Faction 
+,sum(D)						as Total_numbers_of_deaths
 from wowwg w 
 group by 1
 order by 2 desc
+	
+/*10. Which classes captured the opponent's flag most often in both factions? */
 
-/* 10.Which classes do players play the most often and which the least often and what is their mortality rate? */ 
+select
+Class 
+,Faction 
+,sum(FC)				as Total_flag_captured
+from wowwg w 
+group by 1,2
+order by 3 desc
+
+
+/* 11.Which classes do players play the most often and which the least often and what is their mortality rate? */ 
 
 select
 Class 
@@ -145,13 +156,3 @@ Class
 from wowwg w 
 group by 1
 order by 2 desc
-
-/*11. Which classes captured the opponent's flag most often in both factions? */
-
-select
-Class 
-,Faction 
-,sum(FC)				as Total_flag_captured
-from wowwg w 
-group by 1,2
-order by 3 desc
