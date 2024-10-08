@@ -63,7 +63,7 @@ The data shows that the strongest classes are warlock, priest, paladin, mage, wh
 
 ![image](https://github.com/user-attachments/assets/52e2b831-6c00-452f-8be9-ddf131fc4b5a)
 
-
+From the data obtained, one can see a slight difference compared to the previous table. The first two places come out unchanged. The warlock class deals as much as more than 7 thousand average damage more compared to the covenant player. In addition, in this faction one of the dominant classes is the hunter. In the alliance, on the other hand, the highest average damage is dealt by the priest, while the death knight and druid also reach the top of the leaderboard.Now we have to find out:
 
 **5. How much total and average damage done by both factions?**
 
