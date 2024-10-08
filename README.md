@@ -111,11 +111,11 @@ From the data, it appears that the lowest mortality rate of the classes that mos
 
 The above analysis of the data shows that:
 
-1.The dominant faction in all the games analyzed is the Horde.
+1. The dominant faction in all the games analyzed is the Horde.
 
-2.The role of healing classes is critically important and is key to winning matches.
+2. The role of healing classes is critically important and is key to winning matches.
 
-3.The most optimal team should include: 
+3. The most optimal team should include: 
 -Damage Dealers, playing with Warlock, Priest, Mage, Hunter and Death Knight classes.
 -Healers, playing with Monk and Priest classes
 -Flag Catcher, playing with Monk, Druid and Demon Hunter classes.
