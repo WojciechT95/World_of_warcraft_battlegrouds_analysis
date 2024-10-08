@@ -41,7 +41,8 @@ Below are the questions asked to the data and the answers to them
 
 ![image](https://github.com/user-attachments/assets/3130fdd1-48aa-4006-a857-774647017981)
 
-
+Checking the data of all the games, it was noted that with a slight advantage the horde wins more often reaching 41 matches won, while the alliance won only 36 matches.
+However, it is worth asking the data:
 
 **2. According to question one, how many times alliance or horde wins but as a full-fledged victory?**
 
