@@ -43,8 +43,7 @@ Below are the questions asked to the data and the answers to them
 
 
 **2. According to question one, how many times alliance or horde wins but as a full-fledged victory?**
- 
- (note, if there are not enough players in battleground, the game ends after 3 minutes, leaving the winner with the best progress so far or when the allotted time expires.
+  (note, if there are not enough players in battleground, the game ends after 3 minutes, leaving the winner with the best progress so far or when the allotted time expires.
  Full-fledged win in Warsong Gulch occurs when a team captures the flag from the opponent's base to its base three times)
  
 ![image](https://github.com/user-attachments/assets/e05b9849-ed1a-441a-8aef-920e4372bc68)
@@ -55,19 +54,45 @@ Below are the questions asked to the data and the answers to them
 
 ![image](https://github.com/user-attachments/assets/af90a3af-3318-4138-9bff-60f4baece202)
 
+**4. What is the difference between the total and average damage done for all classes and between the two factions?**
 
-**4. What is percentage distributon of average healing done for healing classes?**
+![image](https://github.com/user-attachments/assets/52e2b831-6c00-452f-8be9-ddf131fc4b5a)
+
+**5. How much total and average damage done by both factions?**
+
+![image](https://github.com/user-attachments/assets/019bd8ee-28fa-4e84-a164-c0d0f58ba0c2)
+
+
+**6. What is percentage distributon of average healing done for healing classes?**
 
 ![image](https://github.com/user-attachments/assets/e0b86cce-300f-439e-9e1c-b494242e9781)
 
+**7. What is the difference between the total healing done for all classes between the two factions?**
 
-**5. Which class enjoys the highest mortality rate?**
+![image](https://github.com/user-attachments/assets/a874a57b-03f0-4d5a-a0b6-7e9b51dd9ead)
+
+
+**8. How much total and average healing done by both factions?**
+
+![image](https://github.com/user-attachments/assets/00a780c8-cdbb-46f5-b448-db70ca17321e)
+
+
+**9. Which class enjoys the highest mortality rate?**
 
 ![image](https://github.com/user-attachments/assets/bc0eddca-8579-49f3-9d39-24728e92b5d8)
 
-**6.Which classes do players play the most often and which the least often?**
+**10.Which classes do players play the most often and which the least often?**
 
 ![image](https://github.com/user-attachments/assets/a257cec8-4e6a-496f-86ef-0c8a9d63bc46)
+
+**11. What are the differences in mortality between the factions?**
+
+![image](https://github.com/user-attachments/assets/4268d6e5-771a-4339-96fa-ee153b85564b)
+
+**12. Which classes captured the opponent's flag most often in both factions?**
+
+![image](https://github.com/user-attachments/assets/bf94fb18-2018-4320-b898-fbaf9f5423df)
+
 
 
 ## Data Source
