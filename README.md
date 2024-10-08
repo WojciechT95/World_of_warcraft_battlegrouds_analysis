@@ -69,7 +69,7 @@ Below are the questions asked to the data and the answers to them
 
 **6. What is average healing done and its percentage distributon for healing classes?**
 
-![image](https://github.com/user-attachments/assets/1fbd651a-65d8-4cc5-823d-0e472b022dcc)
+![image](https://github.com/user-attachments/assets/9b55bf4e-7133-4bbe-bc23-a484c5a1572c)
 
 
 
